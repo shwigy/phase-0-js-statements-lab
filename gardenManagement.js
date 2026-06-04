@@ -17,7 +17,5 @@ else
 // While loop to control soil moisture
 while (soilMoisture < 40) {
     soilMoisture += 5;  
+    console.log(soilMoisture);
 }
-
-// Output the final soil moisture level
-console.log(soilMoisture);
