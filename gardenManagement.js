@@ -9,10 +9,10 @@ else
     console.log("Watering off");
 
 // Check time of day to control lights
-if (timeOfDay == "morning")
-    console.log("Lights off");
-else
+if (timeOfDay == "evening" || timeOfDay == "night")
     console.log("Lights on");
+else
+    console.log("Lights off");
 
 // While loop to control soil moisture
 while (soilMoisture < 40) {
